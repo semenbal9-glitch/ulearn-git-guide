@@ -1,0 +1,54 @@
+[33m16550d1[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mreview[m[33m, [m[1;33mtag: [m[1;33mv0.3[m[33m, [m[1;32mmain[m[33m)[m HEAD@{0}: checkout: moving from main to review
+[33m16550d1[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mreview[m[33m, [m[1;33mtag: [m[1;33mv0.3[m[33m, [m[1;32mmain[m[33m)[m HEAD@{1}: merge undoing-feature: Merge made by the 'ort' strategy.
+[33m5600f5f[m HEAD@{2}: rebase (finish): returning to refs/heads/main
+[33m5600f5f[m HEAD@{3}: rebase (start): checkout 5591ff044261edf34c86cb903de1776f401375f9^
+[33m5591ff0[m HEAD@{4}: checkout: moving from undoing-feature to main
+[33m1bee124[m[33m ([m[1;32mundoing-feature[m[33m)[m HEAD@{5}: commit: Add a2.md
+[33m5591ff0[m HEAD@{6}: checkout: moving from main to undoing-feature
+[33m5591ff0[m HEAD@{7}: commit: Hotfix. Change a1.md
+[33m5600f5f[m HEAD@{8}: commit: Merge branches "refers-feature"
+[33mf7a3e1f[m[33m ([m[1;32mmerge-feature[m[33m)[m HEAD@{9}: merge merge-feature: Fast-forward
+[33m61665f4[m HEAD@{10}: merge merge-feature: updating HEAD
+[33m61665f4[m HEAD@{11}: merge merge-feature: updating HEAD
+[33m61665f4[m HEAD@{12}: reset: moving to HEAD~
+[33m28d20d3[m HEAD@{13}: commit: Merge branches "refers-feature"
+[33m61665f4[m HEAD@{14}: reset: moving to HEAD~
+[33m6a39e26[m HEAD@{15}: commit (amend): Add a1.md
+[33mf7a3e1f[m[33m ([m[1;32mmerge-feature[m[33m)[m HEAD@{16}: reset: moving to HEAD~
+[33m0fd10b7[m HEAD@{17}: commit: Fix after merge rerefs-feature
+[33mf7a3e1f[m[33m ([m[1;32mmerge-feature[m[33m)[m HEAD@{18}: reset: moving to HEAD~
+[33m1090e36[m[33m ([m[1;33mtag: [m[1;33mv0.2[m[33m)[m HEAD@{19}: rebase (finish): returning to refs/heads/main
+[33m1090e36[m[33m ([m[1;33mtag: [m[1;33mv0.2[m[33m)[m HEAD@{20}: rebase (start): checkout c5c50a019401e98925b2d88085b9fefa4fcf3c30^
+[33mc5c50a0[m HEAD@{21}: revert: Revert "Fix after merge rerefs-feature"
+[33m1090e36[m[33m ([m[1;33mtag: [m[1;33mv0.2[m[33m)[m HEAD@{22}: checkout: moving from rerefs-feature to main
+[33m1c6fa50[m[33m ([m[1;33mtag: [m[1;33mv0.1[m[33m, [m[1;32mrerefs-feature[m[33m)[m HEAD@{23}: reset: moving to HEAD~1
+[33m7d6794b[m HEAD@{24}: checkout: moving from main to rerefs-feature
+[33m1090e36[m[33m ([m[1;33mtag: [m[1;33mv0.2[m[33m)[m HEAD@{25}: commit (merge): Fix after merge rerefs-feature
+[33mf7a3e1f[m[33m ([m[1;32mmerge-feature[m[33m)[m HEAD@{26}: merge merge-feature: Fast-forward
+[33m61665f4[m HEAD@{27}: checkout: moving from merge-feature to main
+[33mf7a3e1f[m[33m ([m[1;32mmerge-feature[m[33m)[m HEAD@{28}: commit: Add a1.md
+[33m61665f4[m HEAD@{29}: checkout: moving from main to merge-feature
+[33m61665f4[m HEAD@{30}: commit (merge): Merge branch 'quotation-feature'
+[33mcb45bbc[m HEAD@{31}: checkout: moving from 7d6794bbbed726052f54d52ff336ce55f673c2f1 to main
+[33m7d6794b[m HEAD@{32}: checkout: moving from main to 7d6794b
+[33mcb45bbc[m HEAD@{33}: checkout: moving from refs-feature to main
+[33m7d6794b[m HEAD@{34}: checkout: moving from main to refs-feature
+[33mcb45bbc[m HEAD@{35}: commit: Hotfix. Add new statements to s2.md
+[33m1c6fa50[m[33m ([m[1;33mtag: [m[1;33mv0.1[m[33m, [m[1;32mrerefs-feature[m[33m)[m HEAD@{36}: checkout: moving from quotation-feature to main
+[33m2a73bd6[m[33m ([m[1;32mquotation-feature[m[33m)[m HEAD@{37}: commit: Replace with quotation
+[33m1c6fa50[m[33m ([m[1;33mtag: [m[1;33mv0.1[m[33m, [m[1;32mrerefs-feature[m[33m)[m HEAD@{38}: checkout: moving from main to quotation-feature
+[33m1c6fa50[m[33m ([m[1;33mtag: [m[1;33mv0.1[m[33m, [m[1;32mrerefs-feature[m[33m)[m HEAD@{39}: reset: moving to 1c6fa50cff94e3f00ba7e754bd022c7447d0ace1
+[33m7d6794b[m HEAD@{40}: commit: Add s3.md
+[33m1c6fa50[m[33m ([m[1;33mtag: [m[1;33mv0.1[m[33m, [m[1;32mrerefs-feature[m[33m)[m HEAD@{41}: commit: Remove unfinished c1.md
+[33m3a7a7d1[m HEAD@{42}: commit: Add part of c1.md
+[33m623c253[m HEAD@{43}: reset: moving to HEAD~
+[33m036420b[m HEAD@{44}: commit: Add part of c1.md
+[33m623c253[m HEAD@{45}: commit: Keep secrets
+[33m053c66d[m HEAD@{46}: commit: Change s2.md
+[33m9d7a768[m HEAD@{47}: commit: Add s2.md header
+[33ma6d0c5c[m HEAD@{48}: reset: moving to HEAD~
+[33m5ffd95b[m HEAD@{49}: commit: Add s2.md header
+[33ma6d0c5c[m HEAD@{50}: reset: moving to HEAD~
+[33m5e7c8c6[m HEAD@{51}: commit: Add s2.md header
+[33ma6d0c5c[m HEAD@{52}: commit: Add s1.md
+[33maac174b[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{53}: clone: from https://github.com/kontur-courses/ulearn-git-guide.git
